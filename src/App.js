@@ -6,11 +6,11 @@ import { Button } from './stories/Button';
 function App() {
 
   const onClick = () => {
-    alert('aquiii')
+    alert('On click')
   }
 
   const onMouseLeave = () => {
-    alert('onMouseLeave')
+    alert('onMouseLeave!')
   }
 
   return (
