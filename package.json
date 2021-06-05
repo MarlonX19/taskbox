@@ -5,7 +5,7 @@
   "author": "Chromatic <https://chromatic.com/>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chromaui/intro-storybook-react-template"
+    "url": "git+https://github.com/chromaui/intro-storybook-react-template.git"
   },
   "bugs": {
     "url": "https://github.com/chromaui/intro-storybook-react-template/issues"
@@ -27,7 +27,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=0178be32e423"
   },
   "eslintConfig": {
     "extends": [
@@ -55,5 +56,8 @@
     "@storybook/preset-create-react-app": "^3.1.7",
     "@storybook/react": "^6.2.8",
     "@storybook/testing-react": "^0.0.10"
-  }
+  },
+  "homepage": "https://github.com/chromaui/intro-storybook-react-template#readme",
+  "main": "index.js",
+  "keywords": []
 }
